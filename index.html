@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shadra | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-container">
+    <div class="logo">Tugas Himakom</div>
+    <ul class="nav-links">
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#profile">Profil</a></li>
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#assignments">Penugasan</a></li>
+      <li><a href="#portfolio">Portofolio</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-content">
+    <h1><span class="gradient-text">Zaky Shadra Ibnu Hibban</span></h1>
+    <p>Mahasiswa Teknik Komputer & Informatika</p>
+    <button class="primary-btn" onclick="scrollToSection('profile')">
+      Jelajahi Portfolio
+    </button>
+  </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="section reveal">
+  <div class="container">
+    <h2>Profil Diri</h2>
+    <p>Nama saya Zaky Shadra Ibnu Hibban, lahir di Bandung pada tanggal 13 July 20007. Saat ini saya berdomisili di padalarang dan sedang menempuh pendidikan di bidang Teknik Komputer dan Informatika. Saya merupakan alumni Pondok Pesantren Riyadhul Huda Ngamprah dan menempuh pendidikan di sana selama kurang lebih enam tahun, mulai dari jenjang MTs hingga SMA.</p>
+    <p>Saya mahasiswa Teknik Komputer dan Informatika yang tertarik pada pengembangan teknologi dan penyelesaian masalah secara logis. Saya terbiasa berpikir kritis dan terus berusaha meningkatkan kemampuan, baik secara teknis maupun dalam kerja tim. Saya ingin berkembang dan bisa memberikan kontribusi yang nyata di lingkungan organisasi.</p>
+    <p>Saya memiliki hobi bermain game, catur, dan sudoku yang sama-sama melatih strategi, konsentrasi, serta kemampuan berpikir logis. Selain itu, saya juga menyukai matematika karena bagi saya matematika bukan sekadar hitung-hitungan, tetapi cara melatih pola pikir yang terstruktur dan analitis.</p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
+  <div class="container">
+    <h2>Skill / Minat</h2>
+    <div class="grid">
+      <div class="card">Tertarik pada pengembangan industri game dan e-sport, serta ingin memahami aspek strategi, kompetitif, dan teknologi di baliknya.</div>
+      <div class="card">Memiliki kemampuan berpikir kritis dan analitis, teliti terhadap detail, serta mampu bekerja dalam tim dan terus belajar hal baru.</div>
+      <div class="card">Tertarik untuk mengembangkan solusi berbasis teknologi yang tidak hanya berfungsi dengan baik, tetapi juga memiliki nilai strategis dan dampak yang nyata.</div>
+      <div class="card">Terbiasa belajar secara mandiri dan terbuka terhadap kritik maupun masukan sebagai bagian dari proses pengembangan diri.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ASSIGNMENTS -->
+<section id="assignments" class="section reveal">
+  <div style="width:100%; max-width:1000px; margin:auto; display:flex; flex-direction:column; gap:20px;">
+
+  <!-- PDF -->
+  <p>Penugasan 2</p>
+  <object data="TOR penugasan 2.pdf" type="application/pdf" style="width:100%; height:800px;">
+    <p>Browser kamu tidak mendukung PDF. <a href="TOR penugasan 2.pdf">Download PDF</a></p>
+  </object>
+  <!-- Infografis -->
+  <p>Penugasan 3</p>
+  <img src="Infografis penugasan 3.png" 
+       alt="Infografis Pendidikan Indonesia 2026" 
+       style="width:100%; height:auto;">
+  <!-- Video -->
+  <P>Penugasan 4</P>
+  <video width="100%" height="auto" controls>
+    <source src="Penugasan 4.mp4" type="video/mp4">
+    Browser kamu tidak mendukung video HTML5.
+  </video>
+</div>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section reveal">
+  <div class="container">
+    <h2>Portofolio / Organisasi</h2>
+    <p>Saya merupakan alumni Pondok Pesantren Riyadhul Huda dan pernah dipercaya menjadi bagian dari kepengurusan di lingkungan pesantren dengan jumlah santri lebih dari 1.500 putra dan putri. Dari jumlah tersebut, saya terpilih sebagai pengurus di bidang kesehatan dan menjabat selama kurang lebih dua tahun, dimulai sejak tahun 2023 saat saya berada di kelas 11.</p>
+    <p>Selama menjabat, saya bertanggung jawab dalam membantu pengelolaan layanan kesehatan santri, koordinasi penanganan kondisi darurat ringan, serta menjaga kedisiplinan dan kebersihan lingkungan sebagai bagian dari upaya preventif. Pengalaman ini melatih saya dalam tanggung jawab, komunikasi, serta pengambilan keputusan di lingkungan yang cukup kompleks.</p>
+    <p>Saya mengakhiri masa kepengurusan karena memilih untuk tidak melanjutkan program pengabdian pesantren dan memutuskan fokus melanjutkan pendidikan ke jenjang perkuliahan.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section reveal">
+  <div class="container">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:zakyshadra@gmail.com">zakyshadra@gmail.com</a> </p>
+    <p>Whatsapp: <a href="https://wa.me/628123456789" target="_blank">085659336849</a></p>
+    <button class="primary-btn">Hubungi Saya</button>
+  </div>
+</section>
+
+<footer>
+  <p>#zakyshadracalonanakmpl</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
